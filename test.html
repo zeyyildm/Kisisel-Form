@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Zeynep Yıldırım">
+    <meta name="description" content="Zeynep Yıldırımın sayfası">
+    <title>Zeynep Yıldırım</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0 10px;
+        }
+        th, td {
+            padding: 10px;
+        }
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <th>Kişisel Bilgiler Formu</th> 
+            </tr>
+            <tr>
+                <td>Adınız:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Soyadınız:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>E-mail Adresiniz:</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td>T.C Kimlik Numaranız:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Cinsiyet seçiniz:</td>
+                <td>
+                    <input id="kadinRadio" name="cinsiyetRadio" type="radio" value="Kadın">
+                    <label for="kadinRadio">Kadın</label>
+                </td>
+                <td>
+                    <input id="erkekRadio" name="cinsiyetRadio" type="radio" value="Erkek">
+                    <label for="erkekRadio">Erkek</label>
+                </td>
+                <td>
+                    <input id="DigerRadio" name="cinsiyetRadio" type="radio" value="Diğer">
+                    <label for="DigerRadio">Diğer</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Doğum tarihiniz:</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>Çalışma tercihlerinizi belirleyiniz:</td>
+                <td>Ofis</td>
+                <td><input type="checkbox"></td>
+                <td>Online</td>
+                <td><input type="checkbox"></td>
+                <td>Hibrit</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Özgeçmişinizi yükleyiniz:</td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><textarea name="yazi" id="yazii" cols="30" rows="10" placeholder="Mesajınız.."></textarea></td>
+            </tr>
+            <tr>
+                <td>Bilgilerimin doğruluğunu onaylıyorum</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Gönder"></td>
+                <td><input type="reset" value="Temizle"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+
+
